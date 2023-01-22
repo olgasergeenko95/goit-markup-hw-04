@@ -16,7 +16,7 @@
   --border-color: #e7e9fc;
   --text-footer: #e7e9fc;
 }
-
+/* RESET */
 .list {
   list-style: none;
 }
@@ -43,6 +43,19 @@ img {
 
 button {
   cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .conteiner {
@@ -174,6 +187,16 @@ body {
   background: var(--oder-section-background);
   padding: 188px 0;
 }
+.overlay {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient (to right, rgba(46, 47, 66, 0.7));
+  background-image: url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .hero-title {
   width: 496px;
@@ -262,6 +285,10 @@ body {
   border-top: 0;
   text-align: center;
   padding: 32px 16px 32px 16px;
+}
+
+.customers-section {
+  padding-top: 130px;
 }
 
 /* Footer */
