@@ -250,6 +250,15 @@ body {
   align-items: center;
   gap: 24px;
 }
+.features-list-icon {
+  padding: 24px 100px;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  background-size: auto auto;
+}
 
 /* Work section */
 
@@ -322,7 +331,6 @@ body {
 .customers-list {
   display: flex;
   text-align: center;
-  /* margin: 16px 32px; */
   padding: 0;
   gap: 24px;
 }
@@ -339,11 +347,11 @@ body {
 }
 
 .customers-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
-.customers-link:hover.customers-icon,
-.customers-link:focus.customers-icon {
-  fill: #404bbf;
+.customers-link:hover,
+.customers-link:focus {
+  color: #404bbf;
   border: 1px solid #404bbf;
 }
 /* Footer */
