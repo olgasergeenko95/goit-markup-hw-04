@@ -321,13 +321,10 @@ body {
 
 .customers-list {
   display: flex;
-  align-items: center;
+  text-align: center;
+  /* margin: 16px 32px; */
   padding: 0;
   gap: 24px;
-}
-
-.customers-item {
-  display: list-item;
 }
 
 .customers-link {
@@ -344,8 +341,8 @@ body {
 .customers-icon {
   fill: #afb1b8;
 }
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
+.customers-link:hover.customers-icon,
+.customers-link:focus.customers-icon {
   fill: #404bbf;
   border: 1px solid #404bbf;
 }
